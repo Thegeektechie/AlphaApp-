@@ -53,8 +53,8 @@ Console.WriteLine("                            ----------------------Question 2-
  Console.WriteLine("Write a program to calculate the profit between the cost price of a product of $200.876 whose selling price is $255.425. The result should be in two decimal places.");
  Console.WriteLine ("Solution");
   Console.WriteLine("Profit = Selling Price - Cost Price.");
-  double SellingPrice = 255.425F;
-  double CostPrice = 200.876F;
+  double SellingPrice = 255.425;
+  double CostPrice = 200.876;
   Console.WriteLine ("Profit = 255.425 - 200.876");
   double profit = (double)(SellingPrice - CostPrice);
   Console.WriteLine("Profit = $" + Math.Round(profit, 2));
